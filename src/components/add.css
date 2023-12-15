@@ -1,0 +1,54 @@
+/* add a style for input and a buuton  */
+.addinput{
+    display: flex;
+    justify-content: center;
+}
+.addinput input{
+    min-width: 15rem;
+    width: 30vw;
+    max-height: 2.5rem;
+    background-color: #e1ebfd;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    align-self: center;
+}
+.addinput input:focus{
+    outline: none;
+    border: 2px solid #c44569;
+}
+/* add a style for button add */
+.addinput button{
+    margin-left:1rem;
+    background-color: #c44569;
+    color: #e1ebfd;
+    border-radius: 10%;
+    border: 2px solid #e1ebfd;
+    font-size: 1.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    cursor: pointer;
+    box-shadow: 2px  4px 10px #c44569 ;
+}
+.addinput button:focus{
+    outline: none;
+}
+/* add a style for two button */
+.displaybutton{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.displaybutton button{
+    margin-bottom: 2rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    margin-left: 1.2rem;
+    background-color: #c44569;
+    color: #e1ebfd;
+    border: 2px solid #e1ebfd;
+}
+

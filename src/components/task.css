@@ -1,0 +1,67 @@
+/* add css style for the task  in the box added*/
+.save {
+    position: relative; 
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row; 
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    border: 2px solid rgba(255, 182, 193, 0.5);
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    background-color:rgba(255, 182, 193, 0.5);
+    display: inline-block;
+    color: #c44569;
+    }
+
+/* add a style for all buttons and input  */
+.save button{
+background-color: transparent;
+cursor: pointer;
+margin-left: 0.9rem;
+width: 1.1rem;
+height: 1.1rem;
+font-size: 1.3rem;
+border: none;
+}  
+.save input{
+    background-color: #e1ebfd;
+    border: 2px solid #c44569;
+    border-radius: 3px;
+    padding: 5px;
+}
+.save input:focus{
+    background-color: #c44569;
+    color: #e1ebfd;
+    padding: 9px;
+}
+.buttons{
+    width: 100px;
+    display: flex;
+    display: inline;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 3px;
+    right: 3px
+}
+.inp{
+    line-height: 1.5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.inputchange{
+    line-height: 1.5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.buttonchange{
+    width: 100px;
+    display: flex;
+    display: inline;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 3px;
+    right: -25px
+} 
+
