@@ -41,7 +41,7 @@ const AddTask = () => {
             <div className='displaybutton'>
                 {/* insert two button */}
             <button onClick={handleCompleted}>COMPLETED </button>
-            <button onClick={handleNotCompleted}>NOT completed </button>
+            <button onClick={handleNotCompleted}>NOT COMPLETED </button>
             <button  onClick={handleShowAll}>ALL TASK  </button>
             </div>
             
