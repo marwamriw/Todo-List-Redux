@@ -5,28 +5,30 @@ export const add_task =(task) => {
         type :'ADD_TASK',
         payload :task,
     }
-}
+};
+
 // create an action for update task
 export const edit_task =(id,description) => {
     return {
         type :'EDIT_TASK',
         payload :id,description,
     }
-}
+};
 
 export const filter_task =(filter) => {
     return {
         type :'FILTER_TASK',
         payload :filter,
     }
-}
+};
 // create an action filter tasks
 export const filter_tasks =(filter) => {
   return {
       type :'FILTER_TASKS',
       payload :filter,
   }
-}
+};
+
 // create an action for delete task
 export const delete_task = (taskId) => {
     return {
@@ -34,6 +36,7 @@ export const delete_task = (taskId) => {
       payload: taskId,
     };
   };
+
 // create an action for is done task
   export const toggle_done = (task) => {
     return {
@@ -42,5 +45,9 @@ export const delete_task = (taskId) => {
     };
   };
 
-  
+  export const show_not_completed = () => {
+    return {
+        type: 'SHOW_NOT_COMPLETED',
+    };
+};
 

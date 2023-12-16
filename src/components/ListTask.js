@@ -7,10 +7,12 @@ import { toggle_done } from '../Actions/addAction'
 
 const ListTask = ({task}) => {
     const dispatch= useDispatch();
-    /* give a state with use selector  */
+    /* give a state with use selector  and filter*/
     const tasks = useSelector((state) => {
         if (state.addReducer.filter === 'SHOW_COMPLETED') {
             return state.addReducer.tasks.filter((task) => task.isDone);
+        } else if (state.addReducer.filter === 'SHOW_NOT_COMPLETED') {
+            return state.addReducer.tasks.filter((task) => !task.isDone);
         }
         return state.addReducer.tasks;
         } );
